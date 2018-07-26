@@ -6,30 +6,37 @@
   height: 100px;
   padding: 25px 15px;
   border: 0;
+
   &__title {
     margin-left: 55px;
     font-family: 'JFFlat', sans-serif;
     font-size: 24px;
   }
+
   &__icon {
     width: 42px;
   }
+
   &--location {
     background: $c-dark-brown;
     color: $c-light-pink;
   }
+
   &--music {
     background: $c-brown;
     color: $c-yellow;
   }
+
   &--notes {
     background: $c-yellow;
     color: $c-dark-brown;
   }
+
   &--books {
     background: $c-light-pink;
     color: $c-brown;
   }
+
   &--tendances {
     background: $c-orange;
     color: $c-light-pink;
@@ -40,22 +47,27 @@
   display: none;
   padding: 15px;
   box-shadow: inset 0 0 5.1px 0.9px rgba(0, 0, 0, 0.25);
+
   &--location {
     background: $c-dark-brown;
     color: $c-light-pink;
   }
+
   &--music {
     background: $c-brown;
     color: $c-yellow;
   }
+
   &--notes {
     background: $c-yellow;
     color: $c-dark-brown;
   }
+
   &--books {
     background: $c-light-pink;
     color: $c-brown;
   }
+  
   &--tendances {
     background: $c-orange;
     color: $c-light-pink;
